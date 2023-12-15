@@ -51,5 +51,6 @@ user_id = '...'
 Dugué, N., & Perez, A. (2022). Direction matters in complex networks: A theoretical and applied 
 study for greedy modularity optimization. Retrieved from 
 [https://www.sciencedirect.com/science/article/pii/S0378437122005234](https://www.sciencedirect.com/science/article/pii/S0378437122005234)  
+
 Ni, J., Li, J., & McAuley, J. (2019). Empirical Methods in Natural Language Processing 
 (EMNLP). Retrieved from [https://cseweb.ucsd.edu//~jmcauley/pdfs/emnlp19a.pdf](https://cseweb.ucsd.edu//~jmcauley/pdfs/emnlp19a.pdf)
