@@ -1,5 +1,8 @@
 # Author
-Ronen H
+Ronen H  
+
+# Time Frame
+November 2023 to December 2023.  
 
 # Data Source
 The video game reviews, 'Video_Games.json.gz', and metadata, 'meta_Video_Games.json.gz', can be accessed via [https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/).  
