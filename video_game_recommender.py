@@ -239,22 +239,22 @@ class VideoGameRecommender:
 
 
 def jaccard_similarity(first_categories: set[str], second_categories: set[str]) -> float:
-        '''
-        Calculates the Jaccard Similarity between the first video game categories
-        and second video game categories.
+    '''
+    Calculates the Jaccard Similarity between the first video game categories
+    and second video game categories.
 
-        first_categories: First video game categories.
-        second_categories: Second video game categories.
+    first_categories: First video game categories.
+    second_categories: Second video game categories.
 
-        Returns the Jaccard Similarity.
-        '''
-        num_shared = len(first_categories.intersection(second_categories))
-        num_total = len(first_categories.union(second_categories))
+    Returns the Jaccard Similarity.
+    '''
+    num_shared = len(first_categories.intersection(second_categories))
+    num_total = len(first_categories.union(second_categories))
 
-        if num_total == 0: # Both video games have no categories.
-            return 1
-        
-        return num_shared / num_total
+    if num_total == 0: # Both video games have no categories.
+        return 1
+    
+    return num_shared / num_total
 
 def get_recommendation_sets(video_games_network: nx.DiGraph, resolution: float=2.5) -> tuple[list[set[str]], dict[str, int]]:
     '''
